@@ -17,6 +17,7 @@
 		9778BEAC246CE95C003D89E4 /* QToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9778BEAB246CE95C003D89E4 /* QToolsTests.m */; };
 		9778BEB7246CE95C003D89E4 /* QToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9778BEB6246CE95C003D89E4 /* QToolsUITests.m */; };
 		9778BEC7246CE9E0003D89E4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9778BEC6246CE9E0003D89E4 /* UIView+Frame.m */; };
+		9778BECA246CECA1003D89E4 /* NSDate+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 9778BEC9246CECA1003D89E4 /* NSDate+Date.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		9778BEB8246CE95C003D89E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9778BEC5246CE9E0003D89E4 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		9778BEC6246CE9E0003D89E4 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9778BEC8246CECA1003D89E4 /* NSDate+Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Date.h"; sourceTree = "<group>"; };
+		9778BEC9246CECA1003D89E4 /* NSDate+Date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Date.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 			children = (
 				9778BEC5246CE9E0003D89E4 /* UIView+Frame.h */,
 				9778BEC6246CE9E0003D89E4 /* UIView+Frame.m */,
+				9778BEC8246CECA1003D89E4 /* NSDate+Date.h */,
+				9778BEC9246CECA1003D89E4 /* NSDate+Date.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			files = (
 				9778BE97246CE959003D89E4 /* ViewController.m in Sources */,
 				9778BE91246CE959003D89E4 /* AppDelegate.m in Sources */,
+				9778BECA246CECA1003D89E4 /* NSDate+Date.m in Sources */,
 				9778BEA2246CE95C003D89E4 /* main.m in Sources */,
 				9778BEC7246CE9E0003D89E4 /* UIView+Frame.m in Sources */,
 				9778BE94246CE959003D89E4 /* SceneDelegate.m in Sources */,
